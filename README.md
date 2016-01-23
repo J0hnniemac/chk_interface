@@ -1,8 +1,10 @@
 # chk_interface
-Check ip address and tcp port is alive. Useful for checking connection through firewalls etc. Written in perl
+Check ip address and tcp port is alive. Useful for checking connection through firewalls etc. 
+
+***Written in perl***
 
 
-./chk_interface.v3.pl inputfile outputfile
+./chk_interface.pl inputfile outputfile
 
 input file example
 99.143.238.204:3389:johns vdi
