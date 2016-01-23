@@ -5,7 +5,7 @@ use IO::Socket::PortState qw(check_ports);
 
 $num_args = $#ARGV + 1; 
 if ($num_args != 2) {     
-	print "\nUsage: chk_interface.v3.pl interfacefilename outputfilename\n";
+	print "\nUsage: chk_interface.pl interfacefilename outputfilename\n";
 	     exit; } 
 
 my $interfaces = $ARGV[0]; 
